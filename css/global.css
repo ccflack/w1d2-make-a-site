@@ -4,9 +4,12 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  padding: 5px 50px 50px 50px;
+  padding: 25px 50px 50px 50px;
   text-align: center;
   color: #E0E5D5;
+}
+main div {
+  padding-bottom: 25px;
 }
 body {
   background-color: #313638;
@@ -28,22 +31,23 @@ h3 {
   text-align: center;
   color: #E0E5D5;
 }
-header a:link {
+a:link {
   text-decoration: none;
   border-bottom: 1px dotted;
   color: #7D8570;
 }
-header a:hover {
+a:hover {
   text-decoration: none;
   color: #504B3A;
   border-bottom: none;
 }
-header a:visited {
-  color: #666152
+a:visited {
+  color: #8f9388
 }
 .heading-img {
   width: 300px;
   display:block;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,6 +69,7 @@ footer {
 }
 
 footer .navbtn {
+    text-decoration: none;
     position: absolute;
     right: 10px;
     background: transparent;
@@ -76,6 +81,15 @@ footer .navbtn {
     transition: all .3s ease;
 }
 
+footer a:link {
+  border-bottom:none;
+}
+footer .navbtn:hover {
+  transform:translateX(15px);
+  transform:translateY(15px);
+  transform:translateZ(15px);
+}
+
 /*About.html*/
 
 .avatar {
@@ -83,5 +97,7 @@ footer .navbtn {
   width: 200px;
   border: 5px solid #E0E5D5;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
+
+/*Contact.html*/
