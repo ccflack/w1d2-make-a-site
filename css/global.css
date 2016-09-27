@@ -9,10 +9,11 @@ header {
   color: #E0E5D5;
 }
 main div {
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 body {
   background-color: #313638;
+  color: #E0E5D5;
   margin: auto;
   font-family: 'Raleway', sans-serif;
 }
@@ -73,7 +74,7 @@ footer .navbtn {
     position: absolute;
     right: 10px;
     background: transparent;
-    color: #E0E5D5;
+    color: #E0E5D5;section
     border: 2px solid #E0E5D5;
     border-radius: 10px;
     padding: 5px;
@@ -101,3 +102,8 @@ footer .navbtn:hover {
 }
 
 /*Contact.html*/
+
+
+h2 {
+  text-align: center;
+}
